@@ -1,0 +1,101 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 16784
+License: Customer
+
+Current time: 	Sun Apr 07 21:42:10 EDT 2019
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 397 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	cuixf
+User home directory: C:/Users/cuixf
+User working directory: C:/Users/cuixf/Desktop/Saturating_Inductor_Buck
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/cuixf/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/cuixf/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/cuixf/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/cuixf/Desktop/Saturating_Inductor_Buck/vivado.log
+Vivado journal file location: 	C:/Users/cuixf/Desktop/Saturating_Inductor_Buck/vivado.jou
+Engine tmp dir: 	C:/Users/cuixf/Desktop/Saturating_Inductor_Buck/.Xil/Vivado-16784-EECS-Xiaomachine
+
+GUI allocated memory:	155 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 577 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 53 MB (+53384kb) [00:00:07]
+// [Engine Memory]: 503 MB (+376236kb) [00:00:07]
+// Opening Vivado Project: C:\Users\cuixf\Desktop\Saturating_Inductor_Buck\Saturating_Inductor_Buck.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/cuixf/Desktop/Saturating_Inductor_Buck/Saturating_Inductor_Buck.xpr 
+// [GUI Memory]: 63 MB (+7073kb) [00:00:09]
+// [Engine Memory]: 553 MB (+26205kb) [00:00:09]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 614 MB. GUI used memory: 33 MB. Current time: 4/7/19 9:42:12 PM EDT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 617 MB (+37910kb) [00:00:13]
+// [Engine Memory]: 659 MB (+11006kb) [00:00:14]
+// Tcl Message: open_project C:/Users/cuixf/Desktop/Saturating_Inductor_Buck/Saturating_Inductor_Buck.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Chris/Desktop/Research/Saturating_Inductor_Buck' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// Project name: Saturating_Inductor_Buck; location: C:/Users/cuixf/Desktop/Saturating_Inductor_Buck; part: xc7a50tfgg484-3
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 837.477 ; gain = 147.000 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// a (ch): Critical Messages: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+// [GUI Memory]: 67 MB (+1121kb) [00:00:26]
+dismissDialog("Critical Messages"); // a (ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v), inst0 : clk_wiz_0 (clk_wiz_0.xci)]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("main.v", 110, 57); // cd (w, ch)
+// [GUI Memory]: 74 MB (+3434kb) [00:00:36]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
