@@ -99,3 +99,15 @@ selectCodeEditor("main.v", 110, 57); // cd (w, ch)
 // TclEventType: FILE_SET_CHANGE
 // TclEventType: DG_ANALYSIS_MSG_RESET
 // TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 78 MB (+334kb) [00:01:38]
+// [GUI Memory]: 82 MB (+904kb) [00:01:48]
+// Elapsed time: 240 seconds
+selectCodeEditor("main.v", 371, 43); // cd (w, ch)
+selectCodeEditor("main.v", 128, 83); // cd (w, ch)
+selectCodeEditor("main.v", 175, 85); // cd (w, ch)
+selectCodeEditor("main.v", 185, 78); // cd (w, ch)
+selectCodeEditor("main.v", 164, 88); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED

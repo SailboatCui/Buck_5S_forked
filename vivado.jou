@@ -9,3 +9,6 @@
 # Log file: C:/Users/cuixf/Desktop/Saturating_Inductor_Buck/vivado.log
 # Journal file: C:/Users/cuixf/Desktop/Saturating_Inductor_Buck\vivado.jou
 #-----------------------------------------------------------
+start_gui
+open_project C:/Users/cuixf/Desktop/Saturating_Inductor_Buck/Saturating_Inductor_Buck.xpr
+update_compile_order -fileset sources_1
